@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A redesign</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <!-- <script src="script/script.js"></script> -->
+</head>
+
+<!-- created a grid for the body document -->
+<body class="grid">
+   
+    <!-- Top navigation bar -->
+        <nav class="topnav">
+            <ul class="topnav__flex">
+                <li class="topnav__handburgericon">
+                    <a href="" id="open">
+                        <span class="iconify" data-inline="false" data-icon="gg:menu-left"></span>
+                    </a>
+                    <!-- side navigation bar directly linked with the handburger menu. display is hidden until focused on -->
+                    <div class="sidenav" id="list">
+                        <ul class="sidenav__list" id="show">
+                            <li class="sidenav__listitems"><a href="">Bank Transfer</a></li>
+                            <li class="sidenav__listitems"><a href="">Buy Airtime</a></li>
+                            <li class="sidenav__listitems"><a href="">Pay Bills</a></li>
+                            <li class="sidenav__listitems"><a href="">Cards</a></li>
+                            <li class="sidenav__listitems"><a href="">Transactions</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="topnav__logo"><img src="Images/0.png" alt=""></li>
+                <span>
+                <li class="topnav__avatar"><img src="Images/background-color-before-.jpg" alt=""></li>
+                <li class="topnav__name">David A</li>
+                </span>   
+            </ul>
+        </nav>  
+        
+        <!-- description heading -->
+    <div class="card__outerheading">The easiest way to make and accept payments</div>
+
+        <!-- creating the card -->
+    <main class="card__outer">
+        <h3 class="card__heading">Welcome Back!</h3>
+        <form action="">
+            <div>
+            <label for="" class="card__label">NAME</label>
+            <input type="text">
+            </div>
+            <div>
+            <label for="" class="card__label">EMAIL ADDRESS</label>
+            <input type="text">
+            </div>
+            <div>
+            <label for="" class="card__label">PHONE</label>
+            <input type="text">
+            </div>
+            <button class="card__button">Next</button>
+        </form>
+    </main>
+</body>
+</html>

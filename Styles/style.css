@@ -1,0 +1,194 @@
+.card__outerheading {
+  font-size: 24px;
+  font-weight: 600;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 5;
+  grid-column: 2/7;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  text-align: center;
+  margin-left: 26px;
+  margin-right: 242px;
+  margin-top: 50px;
+  color: #3A2E74;
+}
+
+.card__outer {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3/5;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 5;
+  grid-row: 4/9;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card__outer .card__heading {
+  text-align: center;
+  color: #435869;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card__outer form div {
+  display: block;
+  padding: 25px 0;
+}
+
+.card__outer .card__label {
+  color: #435869;
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+.card__outer input {
+  background-color: #F1F0F4;
+  width: 379px;
+  height: 45px;
+  border-radius: 8px;
+  border: 0;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.card__outer .card__button {
+  background-color: #5F0AFF;
+  color: white;
+  border-radius: 8px;
+  width: 130px;
+  height: 37px;
+  text-align: center;
+  margin-left: 135px;
+  border: 0;
+}
+
+.topnav {
+  background-color: white;
+  padding: 0 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1/7;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.topnav .topnav__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 40px;
+}
+
+.topnav .topnav__flex li {
+  list-style: none;
+}
+
+.topnav .topnav__flex .topnav__handburgericon {
+  color: #435869;
+  font-size: 20px;
+}
+
+.topnav .topnav__flex .topnav__handburgericon .sidenav {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 3;
+  grid-row: 4/7;
+  position: absolute;
+  left: 8em;
+  top: 9em;
+  font-size: 16px;
+}
+
+.topnav .topnav__flex .topnav__handburgericon .sidenav .sidenav__list .sidenav__listitems {
+  list-style: none;
+  color: #435869;
+  padding: 20px 0;
+  display: none;
+}
+
+.topnav .topnav__flex .topnav__handburgericon .sidenav .sidenav__list .sidenav__listitems a {
+  text-decoration: none;
+}
+
+.topnav .topnav__flex .topnav__handburgericon .sidenav .sidenav__list .sidenav__listitems a:hover {
+  color: #1fb11f;
+}
+
+.topnav .topnav__flex .topnav__handburgericon a:focus + .sidenav .sidenav__list .sidenav__listitems {
+  display: block;
+}
+
+.topnav .topnav__flex .topnav__handburgericon a:focus + .sidenav .sidenav__list .sidenav__listitems--popup {
+  display: block;
+}
+
+.topnav .topnav__flex .topnav__logo img {
+  width: 3.125em;
+  height: 3.125em;
+  border-radius: 20px;
+}
+
+.topnav .topnav__flex .topnav__avatar img {
+  width: 2.125em;
+  height: 2.125em;
+  border-radius: 20px;
+  margin-right: 45px;
+  margin-left: 7px;
+}
+
+.topnav .topnav__flex .topnav__name {
+  color: #435869;
+  font-size: 1em;
+}
+
+:root {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  margin-top: 0;
+  height: 100vh;
+  background-color: #EBE9F5;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: repeat 10, 1fr;
+      grid-template-rows: repeat 10, 1fr;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
